@@ -1,0 +1,28 @@
+body {
+  font-family: Roboto;
+  color: black;
+}
+.link {
+  color: teal;
+}
+.link:hover {
+  color: tomato;
+}
+.nav-links .link:hover {
+  color: tomato;
+}
+.nav-links .link:focus {
+  color: orange;
+}
+.addres {
+  color: teal;
+}
+.addres:hover {
+  color: tomato;
+}
+.nav-addres .addres:hover {
+  color: tomato;
+}
+.nav-addres .addres:focus {
+  color: orange;
+}

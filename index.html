@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <title>WebStudio</title>
     <meta charset="utf-8" />
     <meta name="description" content="WebStudio, Web, Studio" />
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
     <!--служебна інфа -->
     </head>
   <body>
     <header>
-      <a href="#0">WebStudio</a>
+      <a href="index.html">WebStudio</a>
         <!-- <img src="./images/WebStudio.jpg" alt="Logo WebStudio" width="120" />-->
       <div id="nav">
         <nav>
-          <a href="#0">Студия</a>
-          <a href="#0">Портфолио</a>
-          <a href="#0">Контакти</a>
+         <ul class="nav-links">
+        <li><a class="link" href="index.html" type="button">Студия</a></li>
+          <li><a  class="link"href="portfolio.html" type="button">Портфолио</a></li>
+          <li><a class="link" href="#0" type="button">Контакти</a></li>
+          </ul>
         </nav>
       </div>
-      <p>
-      <a href="mailto:info@devstudio.com">info@devstudio.com </a>
-      <a href="tel:+380961111111">+38 096 111 11 11 </a>
+      <p class="nav-addres">
+      <a class="addres" href="mailto:info@devstudio.com">info@devstudio.com </a>
+      <a class="addres" href="tel:+380961111111">+38 096 111 11 11 </a>
       </p>
     </header>
     <div id="homePage">
-      <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+      <h1 class="title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
     </div>
     <div class="buttons">
       <button type="button">
@@ -82,10 +85,10 @@
       </p>
       <address>
         г.Киев, пр-т Леси Украинки, 26
-        <p>
-          <a href="mailto:info@example.com">info@example.com</a>
+        <p class="nav-addres">
+          <a class="addres" href="mailto:info@example.com">info@example.com</a>
         </p>
-        <p><a href="tel:+380991111111">+38 099 111 11 11</a></p>
+        <p class="nav-addres"><a class="addres" href="tel:+380991111111">+38 099 111 11 11</a></p>
       </address>
     </footer>
   </body>
